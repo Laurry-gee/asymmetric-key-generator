@@ -1,57 +1,13 @@
-# Asymmetric Key Generator
+# RSS Builder by B!Soft MarkBook RSS Feed
 
-This simple tool can be used to generate an Ed25519 PKCS#8 and RSA key pairs (private and public key).
-
-There's two methods to run the tool, you can either download or build from source code.
-
-## Download
-Prebuild apps can be found in [Releases](https://github.com/binance/asymmetric-key-generator/releases).
-
-To verify the package's integrity, download both the app and the checksum file to the same directory:
-
-```shell
--rw-r--r--@  1 john  staff   156M 18 Nov 17:02 AsymmetricKeyGenerator-0.5.0-universal.dmg
--rw-r--r--@  1 john  staff   102B 18 Nov 19:01 AsymmetricKeyGenerator-0.5.0-universal.dmg.CHECKSUM
-```
-
-Then run sha256 checksum:
-
-```shell
-sha256sum -c AsymmetricKeyGenerator-0.5.0-universal.dmg.CHECKSUM
-```
-
-If it passes the integrity check, it'll return `AsymmetricKeyGenerator-0.5.0-universal.dmg: OK`
-
-## Build from source code
-
-Obtain the source code locally and go through the following steps:
-
-```javascript
-
-// install package
-npm install
-
-// run locally
-npm run start
-
-// build packages locally into the "dist" folder.
-npm run dist
-
-```
-
-## Usage
-
-1. Open the app;
-
-2. Choose the key type; Recommend to keep the default value (`Ed25519`), then click the button `Generate Key Pair`;
-
-3. Below on the left column is the `Private Key`, which should be stored in a secure location on your local disk (by using the `Save` button) and must never be shared with anyone;
-
-4. The right column is the `Public Key`. Click `Save` button to save into local disk. This key can be shared with others to verify the `Private Key` signed data;
-
-## Contribution
-Contributions are welcome!
-If you've found a bug within this project, please open an issue to discuss what you would like to change.
-
-## License
-MIT
+https://www.markbook.com MarkBook RSS Feed. Keep up to date on the latest news. en-us mrichardson@acadiemgroup.com The Acadiem Group 2020 NEW MarkBook HTML5 is Here! 10 Oct 2020 10:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News Our ALL NEW MarkBook HTML5 Web Application is Here! Flash or Flex is no longer required. Many added features in a clean new look. Now you can use MarkBook on your Chromebook, Android or iPadOS tablet as well as Windows, macOS or Linux devices. (Select tablets only) A new version of the app, 1.1.0 22 Dec 2020 16:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.1.0, has been launched. It contains a major security update. Please see the Release Notes for the details. A new version of the app, 1.2.0 26 Jan 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.2.0, has been launched. You can now Copy Comments to many students at once and easily input entries on tablets using Numeric Keypad. Please see the Release Notes for the details. A new version of the app, 1.3.0 25 Mar 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.3.0, has been launched. Please see the Release Notes for the details. A new version of the app, 1.4.0 30 Apr 2021 08:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.4.0, has been launched. Please see the Release Notes for the details. For TDSB users 6 Aug 2021 08:00:00 -0400 http://tdsb.on.ca/ mrichardson@acadiemgroup.com News TDSB users: In preparation for Single Sign On service in September, all usernames now use your Toronto District School Board email address. TDSB-logo.png Attention TDSB Users 18 Sep 2021 01:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News On Saturday September 18th, Single Sign On (SSO) will be implemented for TDSB MarkBook (Cloud) users. After the implementation is completed, teachers will be required to sign onto MarkBook using their TDSB e- mail address and password. Teachers that are already signing onto MarkBook with their TDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TDSB-logo.png For TVDSB Users 09 Sep 2022 01:00:00 -0400 
+https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) was implemented for TVDSB MarkBook (Cloud) users. Teachers are now required to sign onto MarkBook using their TVDSB e-mail address and password in the Microsoft 365 Apps environment. Please follow the Information Guidesheet for "Transfer from Individual to Corporate Domain using SSO in MarkBook®”. Teachers that are already signing onto MarkBook with their TVDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
+https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
